@@ -60,7 +60,7 @@ function enable() {
               [{ width: 3, level: 1, right: true, extraClassName: 'shift-key-lowercase' }, { label: '?123', width: 1.5, level: 2 }],
               [{ label: '←', width: 1, keyval: Clutter.KEY_Left }, { label: '↑', width: 1, keyval: Clutter.KEY_Up }, { label: '↓', width: 1, keyval: Clutter.KEY_Down }, { label: '→', width: 1, keyval: Clutter.KEY_Right }] ],
             [ [{ label: '⌫', width: 1.5, keyval: Clutter.KEY_BackSpace }, { label: '⌦', width: 1, keyval: Clutter.KEY_Delete }, { width: 1, action: 'hide', extraClassName: 'hide-key' }],
-              [{ width: 2, keyval: Clutter.KEY_Return, extraClassName: 'enter-key' }, { width: 1.5, action: 'languageMenu', extraClassName: 'layout-key' }],
+              [{ width: 2, keyval: Clutter.KEY_Return, extraClassName: 'enter-key' }, { label: 'Lang', width: 1.5, action: 'languageMenu', extraClassName: 'layout-key' }],
               [{ width: 3, level: 0, right: true, extraClassName: 'shift-key-uppercase' }, { label: '?123', width: 1.5, level: 2 }],
               [{ label: '←', width: 1, keyval: Clutter.KEY_Left }, { label: '↑', width: 1, keyval: Clutter.KEY_Up }, { label: '↓', width: 1, keyval: Clutter.KEY_Down }, { label: '→', width: 1, keyval: Clutter.KEY_Right }] ],
             [ [{ label: '⌫', width: 1.5, keyval: Clutter.KEY_BackSpace }, { label: '⌦', width: 1, keyval: Clutter.KEY_Delete }, { width: 1, action: 'hide', extraClassName: 'hide-key' }],
